@@ -9,9 +9,15 @@ import deMessages from './messages/de.json';
 import ruMessages from './messages/ru.json';
 import hiMessages from './messages/hi.json';
 import frCAMessages from './messages/fr_CA.json';
+import trMessages from './messages/tr-tr.json';
+import roMessages from './messages/ro.json';
+import slMessages from './messages/sl.json';
 // no need to import en messages-- they are in the defaultMessage field
 
 const messages = {
+    'tr-tr': trMessages,
+  'ro': roMessages,
+  'sl': slMessages,
   ar: arMessages,
   'es-419': es419Messages,
   fr: frMessages,
